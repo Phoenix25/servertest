@@ -1,0 +1,104 @@
+<html><head>
+		<title>Clozerr</title>
+		<link href="http://fonts.googleapis.com/css?family=Roboto:100" rel="stylesheet" type="text/css">
+	<style>
+		body {
+			background-color:#d0e4fe;
+			margin:0;
+			font-size: 
+		}
+		.mainbg {
+			background-color: #111111;
+			background-image:url(img/mainbg.jpg);
+			background-position: 50%;
+			background-size: cover;
+			background-repeat: no-repeat;
+		}
+		.phoneimg{
+			height: 60%;
+			width: auto;
+		}
+		.maintable{
+			width: 300px;
+			text-align: center;
+			height: 100%;
+			border:0px;
+			border-spacing: 0px;
+			visibility:show;
+		}
+		.subtable{
+			position: absolute;
+			text-align: center;
+			border:1px;
+			border-spacing: 0px;
+			bottom:0px;
+		}
+		.logo{
+			height: 40%;
+			float: bottom;
+			bottom: 0px;
+
+		}
+		.tag{
+			font-size: 25;
+			color: #fff;
+			font-family: 'Roboto', sans-serif;
+			padding: 20px;
+		}
+		.formarea{
+			position: absolute;
+			bottom: 20px;
+			left: 50%;
+			text-align: center;
+			margin-left:-88px;
+			width:177px;
+		}
+		.forminput{
+			padding: 10px;
+			text-align: center;
+		}
+		.marginStyle{margin: 0 auto;} 
+		.form2{
+			position: absolute;
+			top: 70;
+
+		}
+	</style></head>
+	
+	<body style="overflow:hidden">
+	<div class="mainbg">
+		<table class="maintable" border="0" align="center">
+			<tbody><tr><td>
+				<img src="img/logo.png" class="logo">
+			</td></tr>
+			<tr><td class="tag"> Try new. Get rewarded.
+			</td></tr>
+			<tr><td>
+			</td></tr>
+			<tr><td height="30%">
+				<img src="img/phone.png" class="phoneimg">
+				<form class="formarea">
+					<input class="forminput" placeholder="Email ID">
+				</form>
+			</td></tr>
+		</tbody></table>
+		<table class="subtable">
+			<tbody><tr><td>
+				<form>
+		<!--			<input></input>-->
+				</form>
+			</td></tr>
+		</tbody></table>
+	</div>
+	
+
+<script>
+$('but1').onclick({
+	$('div1').show();
+	$('div2').hide();
+});
+$('but2').onclick({
+	$('div2').show();
+	$('div1').hide();
+});
+</script></body></html>
