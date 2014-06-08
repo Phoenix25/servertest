@@ -14,7 +14,6 @@ router.post('/pingme', function(req, res){
 	res.end();
 	var subclass = Parse.Object.extend('PreRegRecord')
 	pre_reg_record = new subclass()
-	debugger;
 	console.log(req.param('email'))
 	pre_reg_record.set('email',req.param('email'))
 	pre_reg_record.save();
